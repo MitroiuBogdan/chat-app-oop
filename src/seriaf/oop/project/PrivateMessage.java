@@ -1,3 +1,6 @@
+package seriaf.oop.project;
+
+
 public class PrivateMessage extends Message{
        private String mRecipient;
          
@@ -5,7 +8,8 @@ public class PrivateMessage extends Message{
       super(mSender,mContent);
         this.mRecipient=mRecipent;
         }
-@Override        
+@Override
+       
  public String toString(){
          return"(priv) "+super.toString();
 }
