@@ -1,6 +1,8 @@
 package seriaf.oop.project;
 
 
+
+
 public class PrivateMessage extends Message{
        private String mRecipient;
          
